@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{printf("请输入你的值：\n");
+int x;
+scanf("%d",&x);
+int n=0;
+do{n++;
+x=x/10;
+}while(x>0);
+
+
+printf("输出位数：%d\n",n);
+
+return 0;
+} 
